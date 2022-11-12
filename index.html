@@ -226,7 +226,7 @@
 	<ul>
 		<li>(from)--(/form) elements
 			<ul>
-				<li>Textbox :- It is used to take small text as input</li>
+				<li>Text Input :- (input/) It is used to take small text as input</li>
 				<li>Textarea :- It is used to take large text as input</li>
 				<li>Radio Button :- It is used to select only one item among 2-3</li>
 				<li> Submit Button :- Used to submit the form</li>
@@ -244,6 +244,144 @@
 
 
 	</ul>
+
+	<!-- From Exapmle -->
+
+	<h3>Form Example</h3>
+	<form action="">
+
+		Name:- <input type="text" name="name" value="" placeholder="Enter Full Name...." /> <br/>
+		<br/>
+		Address:- <textarea name="address" id="" cols="" rows=""> </textarea>
+		<br/>
+		<br/>
+		Gender:- 
+		<input type="radio" value="m" name="gender"/> Male 
+		<input type="radio" value="f"  name="gender"/> Female 
+		<br/>
+		<br/>
+		<input type="submit" value="send"> 
+		<input type="reset" value="Reset">		
+
+	</form>
+
+	<!-- Form elements -->
+	<h3>Form elements</h3>
+	<ul>
+		<li>Select box
+			<ul>(select)--(/select)
+				<li>(optgroup  lable="")-- (/optgroup)</li>
+				<li>(option) -- (/option)</li>
+			</ul>
+		</li>
+		<li>Check box</li>
+		<li>File Input</li>
+		<li>(fieldset)--(/fieldset)</li>
+	</ul>
+	
+	
+	<!-- From 2nd Exapmle -->
+	
+	<h3>Form 2nd Example</h3>
+	<form action="">
+
+		<!-- fieldset -->
+		<fieldset>  
+
+			<!-- legend -->
+			<legend> Enqiry Form</legend>
+
+			
+			Name:- <input type="text" name="name" value="" placeholder="Enter Full Name...." /> <br/>
+			<br/>
+			Address:- <textarea name="address" id="" cols="" rows=""> </textarea>
+			<br/>
+			<br/>
+			Gender:- 
+			<input type="radio" value="m" name="gender"/> Male 
+			<input type="radio" value="f"  name="gender"/> Female 
+			<br/>
+			<br/>
+			
+			
+			<!-- Select box -->
+			Country: 
+			<select name="" id="">
+				<option > Select Country</option>
+				<optgroup  label="Asia">
+					<option value="India">India</option>
+					<option value="Shrilanka">શ્રીલંકા</option>
+					<option value="bangla adesh">bangla desh</option>
+				</optgroup>
+				
+				<optgroup label="America">
+					<option value="USA">USA</option>
+					<option value="Maxico">Maxico</option>
+					<option value="Canada">Canada</option>
+				</optgroup>
+				
+				<optgroup label="Europ">
+					<option value="UK">UK</option>
+					<option value="France">France</option>
+				</optgroup>
+			</select>
+
+
+			<!-- Check box -->
+			<br>
+			<br>
+			Hobbies:
+			<input type="checkbox" name="Hobbies[]">Dancing 
+			<input type="checkbox" name="Hobbies[]">Singing 
+			
+			<!-- file input -->
+			<br>
+			<br>
+			<input type="file" name="image"/>
+			
+			
+			
+			<br>
+			<br>
+			<input type="submit" value="send"> 
+			<input type="reset" value="Reset">	
+			
+		</fieldset>
+		</form>
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+<!-- 
+	Angel One Order Place 
+	<script src="https://smartapi.angelbroking.com/common/v1.js"></script>
+
+	<smartapi-button href="#" data-smartapi="smartapi_key"  
+
+                 data-exchange="NSE" 
+
+                 data-tradingsymbol="RELIANCE-EQ"  
+
+                 data-transactiontype="BUY"  
+
+                 data-quantity="1"  
+
+                 data-price="100" 
+
+                 data-producttype="DELIVERY"  
+
+                 data-ordertype="LIMIT">Buy Reliance stock</smartapi-button>  -->
+	
+
+	
 
 
 
